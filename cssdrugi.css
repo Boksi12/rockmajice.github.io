@@ -1069,7 +1069,7 @@ select{
 	display: flex;
 	flex-direction: row;
 	margin-top: 1vh;
-	gap: 1vh;
+	gap: 3vh;
 }
 .searchform{
 	width: 30vw;
