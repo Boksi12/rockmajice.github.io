@@ -1,0 +1,527 @@
+	<!DOCTYPE html>
+<html>
+		<head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="cssdrugi.css"/>
+			<title>Majice</title>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+			<link rel="shortcut icon" href="music.ico"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		</head>
+		
+		<Body>
+		<div id="okvir">
+			<div id="header">
+				<div id="meni">
+					<ul>
+						<li><a href="index.html"/>početna</a></li>
+                        <li><a href="oautoru.html"/>O autoru</a></li>						
+						<li><a href="duksevi.html"/>duksevi</a></li>
+						<li><a href="majice.html"/>majice</a></li>
+                        <li><a href="predlozite.html"/>predložite</a></li>
+					</ul>
+					
+				</div>
+					<div id="logo">
+                        <a href="index.html"><img src="images/rockshop.png" height="150vh"></a>
+				    </div>
+					<div id="login">
+					<form>
+					<p>username:<input type="text" id="username" size="15" name="username"><br/>
+						password:<input type="password" id="password" size="15" name="pass">
+					</p>
+					<p class="prijava"><input type="submit" size="3"value="prijava"</p>
+					</form>
+					</div>
+					<div class="cleaner"></div>
+			</div>
+					<div id="navigacija">
+						<div id="search">
+                            <div class="searchform">
+                                <form action="search.php">
+                                    <input type="search"  name="search products" placeholder="search products" autocomplete="off">
+                                    <button type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    
+                                </form>
+                            </div>
+						</div>
+						<div id="korpa">
+                            <div class="shopcart">
+                                <a class="cart-contents" href="index.html" title="View your shopping cart">
+                                    <i class="fas fa-shopping-basket"></i>
+                                                <span class="count">0</span>
+                                        <span class="amount">0,00&nbsp;rsd</span>
+                                </a>
+                            </div>
+						</div>
+						<div class="cleaner">
+						</div>
+						
+					
+					
+					
+					</div>
+
+					<div id="sredina">
+                        <div class="bendovi">
+                            <h3>odaberite bend</h3>
+                            <ul class="checkbox">
+                                <li class="acdc1">
+                                    <input type="checkbox" id="1" data-tax="product_tag" name="acdc" value="1" />
+                                    <label class="label1" for="1">Ac/dc<span class="checkboxcount"></span></label>
+
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="2" name="accept" value="2" />
+                                    <label class="label2" for="2">accept<span class="checkboxcount"></span></label>
+
+
+                                </li>
+                              
+                              
+                                <li>
+                                    <input type="checkbox" id="5" name="amonamarth" value="5" />
+                                    <label class="label5" for="5">Amon amarth<span class="checkboxcount"></span></label>
+
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="6" name="archenemy" value="6" />
+                                    <label class="label6" for="6">Arch enemy<span class="checkboxcount"></span></label>
+
+                                </li>
+                          
+                                <li>
+                                    <input type="checkbox" id="10" name="cannibalcorpse" value="10" />
+                                    <label class="label10" for="10">Cannibal corpse<span class="checkboxcount"></span></label>
+
+                                </li>
+                              
+                        
+                                <li>
+                                    <input type="checkbox" id="14" name="death" value="14" />
+                                    <label class="label14" for="14">Death<span class="checkboxcount"></span></label>
+
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="15" name="disturbed" value="15" />
+                                    <label class="label15" for="15">disturbed<span class="checkboxcount"></span></label>
+
+                                </li>
+                               
+                            
+                            
+                    
+                                <li>
+                                    <input type="checkbox" id="20" name="ironmaiden" value="20" />
+                                    <label class="label20" for="20">Iron maiden<span class="checkboxcount"></span></label>
+
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="21" name="kreator" value="21" />
+                                    <label class="label21" for="21">Kreator<span class="checkboxcount"></span></label>
+
+                                </li>
+                              
+                                <li>
+                                    <input type="checkbox" id="24" name="megadeth" value="24" />
+                                    <label class="label24" for="24">Megadeth<span class="checkboxcount"></span></label>
+
+                                </li>
+                            
+                                <li>
+                                    <input type="checkbox" id="26" name="metallica" value="26" />
+                                    <label class="label26" for="26">Metallica<span class="checkboxcount"></span></label>
+
+                                </li>
+                           
+                              
+                                <li>
+                                    <input type="checkbox" id="29" name="pantera" value="29" />
+                                    <label class="label29" for="29">Pantera<span class="checkboxcount"></span></label>
+
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="30" name="rammstein" value="30" />
+                                    <label class="label30" for="30">Rammstein<span class="checkboxcount"></span></label>
+
+                                </li>
+                              
+                                <li>
+                                    <input type="checkbox" id="32" name="sixfeetunder" value="32" />
+                                    <label class="label32" for="32">Six feet under<span class="checkboxcount"></span></label>
+
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="33" name="slayer" value="33" />
+                                    <label class="label33" for="33">Slayer<span class="checkboxcount"></span></label>
+
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="34" name="slipknot" value="34" />
+                                    <label class="label34" for="34">Slipknot<span class="checkboxcount"></span></label>
+
+                                </li>
+                                <div class="velicine">
+                                    <h3>odaberite velicinu</h3>
+                                <li>
+                                    <input type="checkbox" id="XL" name="XL"/>
+                                    <label for="XL">XL</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="XS" name="XS"/>
+                                    <label for="XS">XS</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="S" name="S"/>
+                                    <label for="S">S</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="M" name="M"/>
+                                    <label for="M">M</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="L" name="L"/>
+                                    <label for="L">L</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="XXL" name="XXL"/>
+                                    <label for="XXL">XXL</label>
+                                </li>
+                            </div>
+                            </ul>
+                        </div>
+                        <div class="drzaczamajice">
+                            <div class="zaprvired">
+                                <div class="naslov1">
+                                    <h2>Majice</h2>
+                                    <div class="dropdownlist">
+                                        <select name="najnovije" id="dropdown">
+                                            <option value="sortirajpopopularnosti">najnovije</option>
+                                            <option value="sortirajpoprosecnojceni">sortiraj po popularnosti</option>
+                                            <option value="sortirajpopopularnosti">sortiraj po prosecnoj ceni</option>
+                                            <option value="sortirajpopopularnosti">od vece ka manjoj</option>
+                                            <option value="sortirajpopopularnosti">od manje ka vecoj</option>
+                                        </select>
+                                    </div>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="prvamajica">
+                                <li class="zanaslov"><a href="#">AC/DC - For Those About To Rock</a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="drugamajica">
+                                <li class="zanaslov"><a href="#">AC/DC - Rock 'N' Roll Damnation</a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="trecamajica">
+                                <li class="zanaslov"><a href="#">AC/DC - In Rock We Trust</a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="cetvrtamajica">
+                                <li class="zanaslov"><a href="#">AC/DC – Angus Young</a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="petamajica">
+                                <li class="zanaslov"><a href="#">AC/DC - Bon Scott</a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                         </div>
+                         <div class="zaduksimajice">
+                            <div class="accept1">
+                                <li class="zanaslov"><a href="#">Accept - Humanoid </a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="accept2">
+                                <li class="zanaslov"><a href="#">Accept - Humanoid 2</a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="accept3">
+                                <li class="zanaslov"><a href="#">Accept – The Undertaker</a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="accept4">
+                                <li class="zanaslov"><a href="#">Accept – Russian Roulette</a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="accept5">
+                                <li class="zanaslov"><a href="#">Accept – Metal Heart</a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="amon1">
+                                <li class="zanaslov"><a href="#">Amon Amarth - Raven </a></li>
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="amon2">
+                                <li class="zanaslov"><a href="#">Amon Amarth - heidrun </a></li>                         
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="amon3">
+                                <li class="zanaslov"><a href="#">Amon Amarth - Berserker </a></li>                               
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="amon4">
+                                <li class="zanaslov"><a href="#">Amon Amarth - skull and axes </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="amon5">
+                                <li class="zanaslov"><a href="#">Amon Amarth - Surtur Rising </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="archenemy3">
+                                <li class="zanaslov"><a href="#">Arch enemy - War eternal </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="archenemy4">
+                                <li class="zanaslov"><a href="#">Arch enemy - Revolution Begins </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="bathory1">
+                                <li class="zanaslov"><a href="#">Bathory (white print) </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="bathory2">
+                                <li class="zanaslov"><a href="#">Bathory (Blood on ice) </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="cannibalcorpse1">
+                                <li class="zanaslov"><a href="#">Cannibal Corpse-The Wretched spawn </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="archenemy1">
+                                <li class="zanaslov"><a href="#">Arch enemy - Rise of the tyrant </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="archenemy2">
+                                <li class="zanaslov"><a href="#">Arch enemy - Deceiver-Deceiver </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="cannibalcorpse2">
+                                <li class="zanaslov"><a href="#">Cannibal Corpse – Violence Unimagined </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="cannibalcorpse3">
+                                <li class="zanaslov"><a href="#">Cannibal Corpse – Eaten Back to Life </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="cannibalcorpse4">
+                                <li class="zanaslov"><a href="#">Cannibal Corpse – Butchered at birth </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="death1">
+                                <li class="zanaslov"><a href="#">Death – Scream Bloody Gore </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="death2">
+                                <li class="zanaslov"><a href="#">Death (logo) </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="death3">
+                                <li class="zanaslov"><a href="#">Death – The Sound Of Perseverance (Beige) </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="death4">
+                                <li class="zanaslov"><a href="#">Death – Chuck Schuldiner </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="death5">
+                                <li class="zanaslov"><a href="#">Death – Spiritual Healing </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                           
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="death6">
+                                <li class="zanaslov"><a href="#">Death – The Sound Of Perseverance </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="death7">
+                                <li class="zanaslov"><a href="#">Death – Symbolic </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="disturbedmaja1">
+                                <li class="zanaslov"><a href="#">Disturbed – The Vengeful one </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="disturbedmaja2">
+                                <li class="zanaslov"><a href="#">Disturbed Evolution </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="disturbedmaja3">
+                                <li class="zanaslov"><a href="#">Disturbed The lost Children </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="disturbedmaja4">
+                                <li class="zanaslov"><a href="#">Disturbed 4 </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="disturbedmaja5">
+                                <li class="zanaslov"><a href="#">Disturbed Fire it up </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="ironmaidenmajica1">
+                                <li class="zanaslov"><a href="#">Iron Maiden – A Matter Of Life And Death </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="ironmaidenmajica2">
+                                <li class="zanaslov"><a href="#">Iron Maiden – Legacy Of The Beast </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="ironmaidenmajica3">
+                                <li class="zanaslov"><a href="#">Iron Maiden – Seventh Tour </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="ironmaidenmajica4">
+                                <li class="zanaslov"><a href="#">Iron Maiden – Legacy Of The Beast WT ’22 </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="ironmaidenmajica5">
+                                <li class="zanaslov"><a href="#">Iron Maiden – A Real Live One </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="ironmaidenmajica6">
+                                <li class="zanaslov"><a href="#">Iron Maiden-Senjutsu </a></li>                                  
+                                <li class="zacenu"><a href="#">2400din</a></li>
+                            </div>
+                            <div class="ironmaidenmajica7">
+                                <li class="zanaslov"><a href="#">Iron Maiden – Bring Your Daughter To The Slaughter </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="ironmaidenmajica8">
+                                <li class="zanaslov"><a href="#">Iron Maiden – No Prayer on the Road </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="megadethmajica1">
+                                <li class="zanaslov"><a href="#">Megadeth – 35 Years Of Megadeth </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="megadethmajica2">
+                                <li class="zanaslov"><a href="#">Megadeth – Countdown To Extinction </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="megadethmajica3">
+                                <li class="zanaslov"><a href="#">Megadeth – Youthanasia </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="megadethmajica4">
+                                <li class="zanaslov"><a href="#">Megadeth – So Far So Good So What </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="megadethmajica5">
+                                <li class="zanaslov"><a href="#">Megadeth – Killing </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="metallicamajica1">
+                                <li class="zanaslov"><a href="#">Metallica – Inamorata </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="metallicamajica2">
+                                <li class="zanaslov"><a href="#">Metallica – One </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="metallicamajica3">
+                                <li class="zanaslov"><a href="#">Metallica – No Life’Til Leather </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="metallicamajica4">
+                                <li class="zanaslov"><a href="#">Metallica-72 reasons </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="testamentmajica1">
+                                <li class="zanaslov"><a href="#">Testament – Dark Roots Of Earthr </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="testamentmajica2">
+                                <li class="zanaslov"><a href="#">Testament – The Ritual 1992 </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="testamentmajica3">
+                                <li class="zanaslov"><a href="#">Testament – The Legacy </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="testamentmajica4">
+                                <li class="zanaslov"><a href="#">Testament-The Ritual </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="panteramajica1">
+                                <li class="zanaslov"><a href="#">Pantera – Snake </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="panteramajica2">
+                                <li class="zanaslov"><a href="#">Pantera – Stronger Than All </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="panteramajica3">
+                                <li class="zanaslov"><a href="#">Pantera – This Love II </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="panteramajica4">
+                                <li class="zanaslov"><a href="#">Pantera – For The Brothers, For The Fans, For Legacy. </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="panteramajica5">
+                                <li class="zanaslov"><a href="#">Pantera – Cowboys From Hell v.2 </a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="slayermajica1">
+                                <li class="zanaslov"><a href="#">Slayer – Post Mortem</a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="slayermajica2">
+                                <li class="zanaslov"><a href="#">Slayer – Wehrmacht Skull</a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+                          <div class="zaduksimajice">
+                            <div class="slayermajica3">
+                                <li class="zanaslov"><a href="#">Slayer – Triangle Reaper</a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                            <div class="slayermajica4">
+                                <li class="zanaslov"><a href="#">Slayer – Reign in Blood</a></li>                                  
+                                <li class="zacenu"><a href="#">1200din</a></li>
+                            </div>
+                          </div>
+					
+		        </div>
+        </div>
+        <div class="footer">
+            <div class="meni1">
+                <ul>
+                    <li><a href="index.html"/>home</a></li>
+                    <li><a href="oautoru.html"/>O autoru</a></li>
+                    <li><a href="duksevi.html"/>duksevi</a></li>
+                    <li><a href="majice.html"/>majice</a></li>
+                    <li><a href="predlozite.html"/>predlozite</a></li>
+                </ul>
+            </div>         
+        </div>  
+    </div>
+		</Body>
+</html>
